@@ -1,0 +1,76 @@
+body {
+    background-color: rgb(245, 243, 243);
+    padding-bottom: 50px;
+}
+
+.nav {
+    height: auto;
+    background-color: aliceblue;
+    align-items: center;
+    justify-content: center;
+    position: relative;
+    margin-bottom: 100px;
+}
+
+.nav-btn {
+    height: 50px;
+    width: 200px;
+    background-color: aliceblue;
+    border: 0px;
+}
+
+.nav-btn:hover {
+    background-color: cornflowerblue;
+    color: white;
+    -o-transition:.5s;
+    -ms-transition:.5s;
+    -moz-transition:.5s;
+    -webkit-transition:.5s;
+    transition:.5s;
+}
+
+.column {
+    background-color: white;
+    padding-top: 20px;
+    height: min-content;
+    padding-bottom: 30px;
+}
+
+#projects_content, #background_content {
+    display: none;
+}
+
+#about_btn {
+    background-color: cornflowerblue;
+    color: white;
+}
+
+.short_information {
+    background-color: white;
+    padding: 30px 10px 10px;
+}
+
+.progress-bar {
+    background-color: lightgray;
+    width: 100%;
+    height: 20px;
+}
+
+.completed-progress-bar {
+    background-color: cornflowerblue;
+    height: 100%;
+}
+
+.title {
+    font-weight: bold;
+    text-decoration: underline;
+}
+
+p {
+    text-align: justify;
+}
+
+.project_pic {
+    width: 100%;
+    border: 1px solid lightgray;
+}
